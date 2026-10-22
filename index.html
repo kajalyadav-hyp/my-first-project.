@@ -1,114 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="FloraNest flowers and bouquets for every moment.">
-  <title>Home | FloraNest</title>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STYLEORA | Discover Your Own Style</title><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-<header class="site-header">
-  <a class="logo" href="index.html">FloraNest<span>.</span></a>
-  <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
-  <label class="menu-button" for="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></label>
-  <nav class="navigation" aria-label="Main navigation">
-    <ul class="nav-list">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html" >About</a></li>
-      <li><a href="flowers.html" >Flowers</a></li>
-      <li><a href="bouquets.html" >Bouquets</a></li>
-      <li><a href="occasions.html" >Occasions</a></li>
-      <li><a href="contact.html" >Contact</a></li>
-    </ul>
-    <div class="nav-icons">
-      <a href="flowers.html" aria-label="Explore flowers"><i class="fa-solid fa-magnifying-glass"></i></a>
-      <a href="contact.html" aria-label="Contact us"><i class="fa-regular fa-user"></i></a>
-      <a href="bouquets.html" aria-label="View bouquets"><i class="fa-solid fa-bag-shopping"></i></a>
-    </div>
+<header class="navbar">
+  <a class="logo" href="index.html">STYLE<span>ORA</span></a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon" aria-label="Open navigation"><span></span><span></span><span></span></label>
+  <nav class="nav-links">
+    <a class="selected" href="index.html">Home</a><a href="categories.html">Categories</a><a href="shop.html">Shop</a><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="shop.html" aria-label="Browse products">⌕</a>
   </nav>
 </header>
 <main>
-<section class="hero home-hero" id="home">
-  <div class="hero-content"><p class="eyebrow">FRESH FLOWERS, HAPPY HEARTS</p>
-    <h1>Say It Beautifully<br>With Flowers</h1>
-    <p>Thoughtful blooms for life's sweetest moments. Find the perfect flowers to share love, joy and kindness.</p>
-    <div class="hero-actions"><a class="btn btn-primary" href="flowers.html">Shop Flowers <i class="fa-solid fa-arrow-right"></i></a><a class="btn btn-outline" href="about.html">Our Story</a></div>
-  </div><div class="hero-note"><i class="fa-solid fa-seedling"></i> Little blooms, lasting memories</div>
-</section>
-<section class="benefits section-wrap">
-  <article class="benefit"><i class="fa-solid fa-leaf"></i><div><h3>Fresh Blooms</h3><p>Beautifully selected flowers</p></div></article>
-  <article class="benefit"><i class="fa-solid fa-gift"></i><div><h3>Thoughtful Gifts</h3><p>Made for meaningful moments</p></div></article>
-  <article class="benefit"><i class="fa-solid fa-heart"></i><div><h3>Made With Love</h3><p>A little joy in every bunch</p></div></article>
-</section>
-<section class="about section-wrap">
-  <div class="about-image image-frame"><img src="assets/images/flower2.jpg" alt="Colourful fresh flowers" loading="lazy"><div class="image-stamp"><span>Bloom</span><strong>with love</strong></div></div>
-  <div class="about-copy"><p class="eyebrow">A LITTLE ABOUT US</p><h2>Flowers That Make<br>Every Day Special</h2><p>At FloraNest, we believe flowers can say what words sometimes cannot. From a small thank-you to a big celebration, the right bouquet can make a moment unforgettable.</p><p>Our collection is inspired by nature's colours, delicate details and the simple happiness of giving someone flowers.</p><a class="text-link" href="about.html">Get to know us <i class="fa-solid fa-arrow-right"></i></a></div>
-</section>
-<section class="products section-tint">
-  <div class="section-heading"><p class="eyebrow">PICK YOUR FAVOURITES</p><h2>Shop Fresh Flowers</h2><p>Bring a little colour and joy into someone's day.</p></div>
-  <div class="product-grid section-wrap">
-    <article class="product-card"><a class="product-image" href="flowers.html"><img src="assets/images/flower3.jpg" alt="Red roses" loading="lazy"><span class="product-tag">Popular</span></a><div class="product-info"><p class="product-category">Classic collection</p><h3>Red Roses</h3><div class="product-bottom"><span class="price">₹499</span><a href="contact.html" aria-label="Enquire about Red Roses"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
-    <article class="product-card"><a class="product-image" href="flowers.html"><img src="assets/images/lily.jpg" alt="Colourful tulips" loading="lazy"></a><div class="product-info"><p class="product-category">Bright &amp; cheerful</p><h3>Colourful Tulips</h3><div class="product-bottom"><span class="price">₹599</span><a href="contact.html" aria-label="Enquire about Tulips"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
-    <article class="product-card"><a class="product-image" href="flowers.html"><img src="assets/images/flower4.jpg" alt="White lilies" loading="lazy"></a><div class="product-info"><p class="product-category">Elegant collection</p><h3>White Lilies</h3><div class="product-bottom"><span class="price">₹699</span><a href="contact.html" aria-label="Enquire about Lilies"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
-    <article class="product-card"><a class="product-image" href="flowers.html"><img src="assets/images/flowe5.jpg" alt="Pink blooms" loading="lazy"></a><div class="product-info"><p class="product-category">Soft &amp; sweet</p><h3>Pink Blooms</h3><div class="product-bottom"><span class="price">₹549</span><a href="contact.html" aria-label="Enquire about Pink Blooms"><i class="fa-solid fa-arrow-right"></i></a></div></div></article>
-  </div><div class="center-action"><a class="btn btn-dark" href="flowers.html">View All Flowers</a></div>
-</section>
-<section class="bouquets section-wrap"><div class="section-heading"><p class="eyebrow">WRAPPED WITH CARE</p><h2>Our Lovely Bouquets</h2><p>Thoughtfully arranged to make your gift feel extra special.</p></div>
-  <div class="bouquet-grid">
-    <article class="bouquet-card"><img src="assets/images/flow.jpg" alt="Romantic rose bouquet" loading="lazy"><div class="bouquet-overlay"><span>01 / ROMANTIC</span><h3>The Love Story</h3><a href="bouquets.html">Explore bouquets <i class="fa-solid fa-arrow-right"></i></a></div></article>
-    <article class="bouquet-card"><img src="assets/images/flower.jpg" alt="Pastel bouquet" loading="lazy"><div class="bouquet-overlay"><span>02 / ELEGANT</span><h3>Pastel Dreams</h3><a href="bouquets.html">Explore bouquets <i class="fa-solid fa-arrow-right"></i></a></div></article>
-    <article class="bouquet-card bouquet-three"><img src="assets/images/flower6.jpg" alt="Seasonal flowers" loading="lazy"><div class="bouquet-overlay"><span>03 / JOYFUL</span><h3>Sunny Days</h3><a href="bouquets.html">Explore bouquets <i class="fa-solid fa-arrow-right"></i></a></div></article>
-  </div><div class="center-action"><a class="btn btn-dark" href="bouquets.html">Explore All Bouquets</a></div>
-</section>
-<section class="occasions section-tint"><div class="section-heading"><p class="eyebrow">A FLOWER FOR EVERY FEELING</p><h2>Shop By Occasion</h2><p>Whatever you're celebrating, make it bloom.</p></div>
-  <div class="occasion-grid section-wrap">
-    <a class="occasion-card" href="occasions.html"><span class="occasion-icon"><i class="fa-solid fa-cake-candles"></i></span><h3>Birthday</h3><p>Make their day brighter</p></a>
-    <a class="occasion-card" href="occasions.html"><span class="occasion-icon"><i class="fa-solid fa-heart"></i></span><h3>Anniversary</h3><p>Celebrate your love</p></a>
-    <a class="occasion-card" href="occasions.html"><span class="occasion-icon"><i class="fa-solid fa-ring"></i></span><h3>Wedding</h3><p>For a beautiful beginning</p></a>
-    <a class="occasion-card" href="occasions.html"><span class="occasion-icon"><i class="fa-solid fa-face-smile"></i></span><h3>Just Because</h3><p>Surprise someone today</p></a>
-  </div><div class="center-action"><a class="btn btn-dark" href="occasions.html">Explore Occasions</a></div>
-</section>
-<section class="testimonial section-wrap"><i class="fa-solid fa-quote-left quote-icon"></i><p class="eyebrow">KIND WORDS</p><h2>“A beautiful bouquet can turn an ordinary day into a lovely memory.”</h2><p class="testimonial-note">Flowers make every little moment feel special.</p></section>
-
-</main>
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-box footer-brand">
-      <a class="footer-logo" href="index.html">FloraNest<span>.</span></a>
-      <p>Bringing beauty and happiness to every moment with flowers and thoughtful bouquets, made to help you share what matters most.</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.pinterest.com/" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+<section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">STYLE THAT SPEAKS YOU</p><h1>Discover Your<br><span>Own Style.</span></h1><p>Find the perfect look for every moment. Explore fashion made for your everyday confidence.</p><a class="primary-btn" href="shop.html">Shop Now <span>→</span></a></div><div class="hero-image"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1100&q=85" alt="Friends enjoying fashion shopping"></div></section>
+<section class="section" id="categories"><div class="section-heading"><p class="eyebrow">FIND YOUR FAVOURITE</p><h2>Shop by Categories</h2><p>Styles for every mood and every member of the family.</p></div>
+<div class="category-grid">
+<a class="category-card women" href="women.html"><span>Women</span><small>Explore collection →</small></a>
+<a class="category-card men" href="men.html"><span>Men</span><small>Explore collection →</small></a>
+<a class="category-card kids" href="kids.html"><span>Kids</span><small>Explore collection →</small></a>
+<a class="category-card accessories" href="accessories.html"><span>Accessories</span><small>Explore collection →</small></a>
+</div></section>
+<section class="section trending"><div class="section-heading"><p class="eyebrow">MADE FOR YOUR MOMENTS</p><h2>Trending Products</h2><p>Meet the pieces everyone is loving right now.</p></div><div class="product-grid">
+<article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/first.jpg" alt="Floral Summer Dress">
+        <span class="badge">NEW</span>
+        <button class="heart" aria-label="Add Floral Summer Dress to wishlist">♡</button>
       </div>
-    </div>
-    <div class="footer-box"><h3>Quick Links</h3><ul>
-      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="flowers.html">Flowers</a></li><li><a href="bouquets.html">Bouquets</a></li><li><a href="occasions.html">Occasions</a></li><li><a href="contact.html">Contact Us</a></li>
-    </ul></div>
-    <div class="footer-box"><h3>Customer Care</h3><ul>
-      <li><a href="contact.html">FAQs</a></li><li><a href="contact.html">Delivery Information</a></li><li><a href="contact.html">Returns &amp; Refunds</a></li><li><a href="contact.html">Privacy Policy</a></li><li><a href="contact.html">Terms &amp; Conditions</a></li>
-    </ul></div>
-    <div class="footer-box footer-contact"><h3>Get In Touch</h3>
-      <p><i class="fa-solid fa-location-dot"></i> Your Shop Address</p>
-      <p><i class="fa-solid fa-phone"></i> +91 XXXXX XXXXX</p>
-      <p><i class="fa-solid fa-envelope"></i> hello@floranest.com</p>
-      <p><i class="fa-regular fa-clock"></i> Mon - Sat: 9 AM - 8 PM</p>
-    </div>
-  </div>
-  <div class="newsletter">
-    <div><h3>A little floral joy in your inbox</h3><p>Hear about seasonal blooms and special offers.</p></div>
-    <form action="mailto:hello@floranest.com" method="post" enctype="text/plain">
-      <label class="visually-hidden" for="newsletter-email">Your email address</label>
-      <input id="newsletter-email" name="Email" type="email" placeholder="Enter your email address" required>
-      <button type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-    </form>
-  </div>
-  <div class="footer-bottom"><p>&copy; 2026 FloraNest. All rights reserved.</p><p>Made with <i class="fa-solid fa-heart"></i> for flower lovers.</p></div>
-</footer>
-</body>
-</html>
+      <div class="product-info">
+        <p class="product-category">Women</p>
+        <h3>Floral Summer Dress</h3>
+        <p class="rating">★★★★★ <span>4.8</span></p>
+        <p class="price">₹1,299 <del>₹1,799</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Floral%20Summer%20Dress">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/man.jpg" alt="Classic White Shirt">
+        <span class="badge">SALE</span>
+        <button class="heart" aria-label="Add Classic White Shirt to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Women</p>
+        <h3>Classic White Shirt</h3>
+        <p class="rating">★★★★★ <span>4.7</span></p>
+        <p class="price">₹899 <del>₹1,199</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Classic%20White%20Shirt">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/2.jpg" alt="Casual Denim Jacket">
+        <span class="badge">TRENDING</span>
+        <button class="heart" aria-label="Add Casual Denim Jacket to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Men</p>
+        <h3>Casual Denim Jacket</h3>
+        <p class="rating">★★★★★ <span>4.9</span></p>
+        <p class="price">₹1,499 <del>₹1,999</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Casual%20Denim%20Jacket">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/3.jpg" alt="Everyday Sneakers">
+        <span class="badge">SALE</span>
+        <button class="heart" aria-label="Add Everyday Sneakers to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Accessories</p>
+        <h3>Everyday Sneakers</h3>
+        <p class="rating">★★★★★ <span>4.6</span></p>
+        <p class="price">₹1,799 <del>₹2,299</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Everyday%20Sneakers">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/bag.jpg" alt="Elegant Handbag">
+        <span class="badge">NEW</span>
+        <button class="heart" aria-label="Add Elegant Handbag to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Accessories</p>
+        <h3>Elegant Handbag</h3>
+        <p class="rating">★★★★★ <span>4.8</span></p>
+        <p class="price">₹1,099 <del>₹1,499</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Elegant%20Handbag">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/mans.jpg" alt="Comfort Hoodie">
+        <span class="badge">POPULAR</span>
+        <button class="heart" aria-label="Add Comfort Hoodie to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Men</p>
+        <h3>Comfort Hoodie</h3>
+        <p class="rating">★★★★★ <span>4.7</span></p>
+        <p class="price">₹999 <del>₹1,399</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Comfort%20Hoodie">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/watch.jpg" alt="Minimalist Watch">
+        <span class="badge">SALE</span>
+        <button class="heart" aria-label="Add Minimalist Watch to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Accessories</p>
+        <h3>Minimalist Watch</h3>
+        <p class="rating">★★★★★ <span>4.5</span></p>
+        <p class="price">₹1,599 <del>₹2,099</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Minimalist%20Watch">Add to Cart</a>
+      </div>
+    </article><article class="product-card">
+      <div class="product-image">
+        <img src="assets/images/boy.jpg" alt="Kids Casual Outfit">
+        <span class="badge">NEW</span>
+        <button class="heart" aria-label="Add Kids Casual Outfit to wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <p class="product-category">Kids</p>
+        <h3>Kids Casual Outfit</h3>
+        <p class="rating">★★★★★ <span>4.8</span></p>
+        <p class="price">₹799 <del>₹1,099</del></p>
+        <a class="cart-btn" href="mailto:hello@styleora.example?subject=Enquiry%20about%20Kids%20Casual%20Outfit">Add to Cart</a>
+      </div>
+    </article>
+</div><div class="center"><a class="primary-btn" href="shop.html">View All Products →</a></div></section>
+<section class="about-section" id="about"><div class="about-copy"><p class="eyebrow">ABOUT STYLEORA</p><h2>Wear what makes<br>you <span>feel good.</span></h2><p>At STYLEORA, fashion is more than what you wear. It's a way to show your personality, celebrate your confidence, and make every day your own.</p><a class="primary-btn" href="shop.html">Explore Collection →</a></div></section>
+<section class="newsletter" id="contact"><p class="eyebrow">JOIN THE STYLE CLUB</p><h2>A little style, delivered.</h2><p>Get inspired by new arrivals, seasonal picks, and everyday style ideas.</p><a class="primary-btn" href="mailto:hello@styleora.example">Contact Us →</a></section>
+</main>
+<footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a class="logo footer-logo" href="index.html">STYLE<span>ORA</span></a><p>Everyday fashion, thoughtfully picked. Find pieces that make you feel confident, comfortable, and completely you.</p><div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a></div></div><div class="footer-column"><h3>Explore</h3><a href="index.html">Home</a><a href="shop.html">Shop All</a><a href="women.html">Women</a><a href="men.html">Men</a></div><div class="footer-column"><h3>Collections</h3><a href="kids.html">Kids</a><a href="accessories.html">Accessories</a><a href="categories.html">All Categories</a><a href="about.html">Our Story</a></div><div class="footer-column"><h3>Need Help?</h3><a href="contact.html">Contact Us</a><a href="mailto:hello@styleora.example">Email Support</a><p>Mon–Sat · 10 AM–6 PM</p></div></div><div class="footer-bottom"><span>© 2026 STYLEORA. All rights reserved.</span><span>Made with care for your everyday style ♡</span><div><a href="contact.html">Privacy</a><a href="contact.html">Terms</a></div></div></footer>
+</body></html>

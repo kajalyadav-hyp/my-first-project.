@@ -1,86 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="FloraNest flowers and bouquets for every moment.">
-  <title>Contact Us | FloraNest</title>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="site-header">
-  <a class="logo" href="index.html">FloraNest<span>.</span></a>
-  <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
-  <label class="menu-button" for="menu-toggle" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></label>
-  <nav class="navigation" aria-label="Main navigation">
-    <ul class="nav-list">
-      <li><a href="index.html" >Home</a></li>
-      <li><a href="about.html" >About</a></li>
-      <li><a href="flowers.html" >Flowers</a></li>
-      <li><a href="bouquets.html" >Bouquets</a></li>
-      <li><a href="occasions.html" >Occasions</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-    </ul>
-    <div class="nav-icons">
-      <a href="flowers.html" aria-label="Explore flowers"><i class="fa-solid fa-magnifying-glass"></i></a>
-      <a href="contact.html" aria-label="Contact us"><i class="fa-regular fa-user"></i></a>
-      <a href="bouquets.html" aria-label="View bouquets"><i class="fa-solid fa-bag-shopping"></i></a>
-    </div>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact STYLEORA</title><link rel="stylesheet" href="style.css"></head><body><header class="navbar">
+  <a class="logo" href="index.html">STYLE<span>ORA</span></a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon" aria-label="Open navigation"><span></span><span></span><span></span></label>
+  <nav class="nav-links">
+    <a class="selected" href="index.html">Home</a><a href="categories.html">Categories</a><a href="shop.html">Shop</a><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="shop.html" aria-label="Browse products">⌕</a>
   </nav>
 </header>
-<main>
-<section class="page-banner contact-banner"><p class="eyebrow">LET'S MAKE IT BLOOM</p><h1>Contact Us</h1><p>Tell us what you're celebrating and we'll help you choose a lovely floral gift.</p></section>
-<section class="contact-section contact-page"><div class="contact-inner section-wrap">
-  <div class="contact-copy"><p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p><h2>Let's Talk Flowers</h2><p>Ask us about bouquets, special occasions or a custom arrangement. Fill in the form to prepare your enquiry.</p>
-    <div class="contact-detail"><i class="fa-solid fa-envelope"></i><span>hello@floranest.com</span></div><div class="contact-detail"><i class="fa-solid fa-phone"></i><span>+91 XXXXX XXXXX</span></div><div class="contact-detail"><i class="fa-solid fa-location-dot"></i><span>Your shop address goes here</span></div><div class="contact-detail"><i class="fa-regular fa-clock"></i><span>Monday - Saturday, 9 AM - 8 PM</span></div>
-  </div>
-  <form class="contact-form" action="mailto:hello@floranest.com" method="post" enctype="text/plain"><h3>Send an Enquiry</h3>
-    <label for="name">Your Name</label><input id="name" name="Name" type="text" placeholder="Enter your name" required>
-    <label for="email">Email Address</label><input id="email" name="Email" type="email" placeholder="Enter your email" required>
-    <label for="phone">Phone Number (optional)</label><input id="phone" name="Phone" type="tel" placeholder="Enter your phone number">
-    <label for="occasion">What are you looking for?</label><select id="occasion" name="Occasion" required><option value="">Choose an occasion</option><option>Birthday</option><option>Anniversary</option><option>Wedding</option><option>Thank you</option><option>Just because</option><option>Other</option></select>
-    <label for="message">Your Message</label><textarea id="message" name="Message" rows="5" placeholder="Tell us about your idea"></textarea>
-    <button class="btn btn-dark form-submit" type="submit">Send Enquiry <i class="fa-solid fa-paper-plane"></i></button><p class="form-note">Demo form: sending depends on your device's configured email app.</p>
-  </form>
-</div></section>
-</main>
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-box footer-brand">
-      <a class="footer-logo" href="index.html">FloraNest<span>.</span></a>
-      <p>Bringing beauty and happiness to every moment with flowers and thoughtful bouquets, made to help you share what matters most.</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.pinterest.com/" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-      </div>
+<main class="info-page">
+  <section class="info-hero">
+    <p class="eyebrow">WE’RE HERE TO HELP</p>
+    <h1>Let’s talk <span>style.</span></h1>
+    <p>Have a question about a collection or need help finding something? Get in touch with our friendly team.</p>
+  </section><section class="contact-grid"><div class="contact-card">
+    
+    <span class="contact-icon">✉</span><h2>Email us</h2>
+    <p>For product questions and general enquiries.</p><a href="mailto:hello@styleora.example">hello@styleora.example</a></div>
+    <div class="contact-card"><span class="contact-icon">◷</span><h2>Support hours</h2>
+      <p>Monday to Saturday</p><strong>10:00 AM – 6:00 PM</strong><small>We usually reply within 1–2 working days.</small>
+    </div><div class="contact-card"><span class="contact-icon">♡</span><h2>Find your style</h2>
+      <p>Browse our collections and discover your next favourite look.</p><a href="categories.html">Explore categories →</a></div>
+    </section><section class="contact-cta"><h2>Ready for a fresh look?</h2><p>Your next favourite piece might be one click away.</p><a class="primary-btn" href="shop.html">Shop now →</a></section></main><footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a class="logo footer-logo" href="index.html">STYLE<span>ORA</span></a><p>Everyday fashion, thoughtfully picked. Find pieces that make you feel confident, comfortable, and completely you.</p><div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a></div></div><div class="footer-column"><h3>Explore</h3><a href="index.html">Home</a><a href="shop.html">Shop All</a><a href="women.html">Women</a><a href="men.html">Men</a></div><div class="footer-column"><h3>Collections</h3><a href="kids.html">Kids</a><a href="accessories.html">Accessories</a><a href="categories.html">All Categories</a><a href="about.html">Our Story</a></div><div class="footer-column"><h3>Need Help?</h3><a href="contact.html">Contact Us</a><a href="mailto:hello@styleora.example">Email Support</a><p>Mon–Sat · 10 AM–6 PM</p></div></div><div class="footer-bottom"><span>© 2026 STYLEORA. All rights reserved.</span><span>Made with care for your everyday style ♡</span><div><a href="contact.html">Privacy</a><a href="contact.html">Terms</a></div>
     </div>
-    <div class="footer-box"><h3>Quick Links</h3><ul>
-      <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="flowers.html">Flowers</a></li><li><a href="bouquets.html">Bouquets</a></li><li><a href="occasions.html">Occasions</a></li><li><a href="contact.html">Contact Us</a></li>
-    </ul></div>
-    <div class="footer-box"><h3>Customer Care</h3><ul>
-      <li><a href="contact.html">FAQs</a></li><li><a href="contact.html">Delivery Information</a></li><li><a href="contact.html">Returns &amp; Refunds</a></li><li><a href="contact.html">Privacy Policy</a></li><li><a href="contact.html">Terms &amp; Conditions</a></li>
-    </ul></div>
-    <div class="footer-box footer-contact"><h3>Get In Touch</h3>
-      <p><i class="fa-solid fa-location-dot"></i> Your Shop Address</p>
-      <p><i class="fa-solid fa-phone"></i> +91 XXXXX XXXXX</p>
-      <p><i class="fa-solid fa-envelope"></i> hello@floranest.com</p>
-      <p><i class="fa-regular fa-clock"></i> Mon - Sat: 9 AM - 8 PM</p>
-    </div>
-  </div>
-  <div class="newsletter">
-    <div><h3>A little floral joy in your inbox</h3><p>Hear about seasonal blooms and special offers.</p></div>
-    <form action="mailto:hello@floranest.com" method="post" enctype="text/plain">
-      <label class="visually-hidden" for="newsletter-email">Your email address</label>
-      <input id="newsletter-email" name="Email" type="email" placeholder="Enter your email address" required>
-      <button type="submit">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-    </form>
-  </div>
-  <div class="footer-bottom"><p>&copy; 2026 FloraNest. All rights reserved.</p><p>Made with <i class="fa-solid fa-heart"></i> for flower lovers.</p></div>
-</footer>
+    
+  </footer>
 </body>
 </html>
